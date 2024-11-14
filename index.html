@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Online Sederhana</title>
+    <title>FStore</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,9 @@
             background-color: #2b2b2b;
             color: white;
             padding: 20px;
-            text-align: center;
+            text-align: ;
+           
+            
         }
         .container {
             display: flex;
@@ -63,17 +65,19 @@
             padding: 20px;
             position: fixed;
             top: 20px;
-            right: 20px;
-            width: 300px;
+            right: 10px;
+            width: 100px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
+            height: auto;
+            margin-top: 130px;
         }
         .cart h3 {
             margin-top: 0;
         }
         .cart-items {
-            margin-bottom: 15px;
+            margin-bottom: -8px;
             max-height: 200px;
             overflow-y: auto;
         }
@@ -98,20 +102,30 @@
         .checkout-button:hover {
             background-color: #2b2b2b;
         }
+        
+
+        .F1 {
+            font-size: 30px;
+            margin-left: 1vh;
+        }
+        .F2 {
+           
+            margin-left: 1vh;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Toko Online Sederhana</h1>
-    <p>Selamat datang di toko online kami! Pilih barang dan belanja sekarang.</p>
+    <i><h1 class="F1">Fatzx Store</h1></i>
+    <p class="F2">Selamat datang di toko online kami! Pilih barang dan belanja sekarang.</p>
 </header>
-
+<section>
 <div class="container">
     <!-- Produk 1 -->
     <div class="product-card">
         <img src="https://via.placeholder.com/200" alt="Produk 1">
-        <h3>Laptop</h3>
+        <h3>Produk 1</h3>
         <p>Rp 20.000.000</p>
         <button onclick="addToCart('Laptop', 20000000)">Tambah ke Keranjang</button>
     </div>
@@ -119,19 +133,69 @@
     <!-- Produk 2 -->
     <div class="product-card">
         <img src="https://via.placeholder.com/200" alt="Produk 2">
-        <h3>Keyboard</h3>
+        <h3>Produk 2</h3>
         <p>Rp 400.000</p>
         <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
     </div>
-
-    <!-- Produk 3 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Produk 3">
-        <h3>Monitor</h3>
-        <p>Rp 18.000.000</p>
-        <button onclick="addToCart('Monitor', 18000000)">Tambah ke Keranjang</button>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 3</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
     </div>
-</div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 4</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 5</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 6</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 7</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 8</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 9</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+     <!-- Produk 2 -->
+     <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produk 2">
+        <h3>Produk 10</h3>
+        <p>Rp 400.000</p>
+        <button onclick="addToCart('Keyboard', 4000000)">Tambah ke Keranjang</button>
+    </div>
+</section>
+
+    
 
 <!-- Keranjang Belanja -->
 <div class="cart">
